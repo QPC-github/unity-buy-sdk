@@ -39,7 +39,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
 
-    - uses: actions/download-artifact@v2
+    - uses: actions/download-artifact@v4.1.7
       with:
         name: ios-plugin-library
         path: ./Assets/Shopify/Plugins/iOS/Shopify/.
